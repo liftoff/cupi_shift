@@ -8,7 +8,7 @@ homepage      = "https://github.com/liftoff/cupi_shift"
 repository    = "https://github.com/liftoff/cupi_shift"
 documentation = "https://liftoff.github.io/cupi_shift/cupi_shift/"
 readme        = "README.md"
-keywords      = ["raspberry", "pi", "rpi", "gpio", "shift register"]
+keywords      = ["raspberry", "pi", "rpi", "gpio", "shift_register"]
 exclude       = [
     ".gitignore",
     "target/*"
