@@ -2,7 +2,7 @@
 
 A Rust crate for manipulating shift registers via the GPIO pins on a Raspberry Pi.
 
-[![Build Status](https://travis-ci.org/inre/cupi_shift.svg?branch=master)](https://travis-ci.org/inre/cupi_shift)
+[![Build Status](https://travis-ci.org/liftoff/cupi_shift.svg?branch=master)](https://travis-ci.org/liftoff/cupi_shift)
 [![crates.io](http://meritbadge.herokuapp.com/cupi_shift)](https://crates.io/crates/cupi_shift)
 
 ## Overview
