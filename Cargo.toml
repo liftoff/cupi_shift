@@ -6,8 +6,9 @@ license = "MIT"
 description   = "A Rust crate for manipulating shift registers via the GPIO pins on a Raspberry Pi."
 homepage      = "https://github.com/liftoff/cupi_shift"
 repository    = "https://github.com/liftoff/cupi_shift"
+documentation = "http://liftoff.github.io/cupi_shift/"
 readme        = "README.md"
-keywords      = ["respberry", "pi", "gpio", "shift register"]
+keywords      = ["raspberry", "pi", "rpi", "gpio", "shift register"]
 exclude       = [
     ".gitignore",
     "target/*"
