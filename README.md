@@ -106,14 +106,14 @@ with every state (aka data) change.
 [3]: https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf
 [4]: https://en.wikipedia.org/wiki/Shift_register
 
-*Pinout*
+# Raspberry Pi pinout reference
 
 [image](http://pi4j.com/images/j8header-2b-large.png)
 
-*API Documentation*
+# API documentation
 
 [doc](http://liftoff.github.io/cupi_shift/cupi_shift/index.html)
 
-*Cross Compiling for Raspberry Pi*
+# Raspberry Pi cross-compilation instructions
 
 [instructions](https://github.com/Ogeon/rust-on-raspberry-pi)
