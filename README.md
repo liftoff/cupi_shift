@@ -24,7 +24,7 @@ single Raspberry Pi using cupi_shift!
 
 # Example
 
-```
+```rust
 extern crate cupi_shift;
 use cupi_shift::Shifter;
 
@@ -58,7 +58,7 @@ http://pi4j.com/images/j8header-2b-large.png
 That's all well and good (setting the state of all pins at once) but what if
 you want to control just one pin at a time?  You can do that too:
 
-```
+```rust
 // Set the 8th pin (aka pin 7) HIGH and apply this change immediately
 shifter.set_pin_high(sr0, 7, true); // NOTE: 3rd arg is 'apply'
 // Set the first pin (aka pin 0) LOW but don't apply just yet
@@ -72,7 +72,7 @@ Every time you call `Shifter.add()` it will start tracking/controlling an
 additional shift register.  So if you have two shift registers chained
 together you can add and control them individually like so:
 
-```
+```rust
 let last = shifter.add(8); // Add an 8-pin shift register (sr_index: 0)
 let first = shifter.add(8); // Add another (sr_index: 1)
 // Set pin 0 HIGH on shift register 0 (all others LOW) but don't apply the change yet
@@ -89,7 +89,7 @@ the next shift register in the chain.
 
 You can also apply changes to individual pins on individual shift registers:
 
-```
+```rust
 shifter.set_pin_high(sr1, 2, false); // Set pin 2 HIGH on shift register 1
 shifter.set_pin_low(sr0, 3, true); // Set pin 3 LOW on shift register 0 (and apply)
 ```
