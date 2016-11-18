@@ -112,7 +112,7 @@ with every state (aka data) change.
 
 # API documentation
 
-[doc](https://liftoff.github.io/cupi_shift/cupi_shift/)
+[documentation](https://liftoff.github.io/cupi_shift/cupi_shift/)
 
 # Raspberry Pi cross-compilation instructions
 
