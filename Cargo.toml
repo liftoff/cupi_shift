@@ -1,0 +1,23 @@
+[package]
+name = "cupi_shift"
+version = "0.1.0"
+authors = ["Dan McDougall <daniel.mcdougall@liftoffsoftware.com>"]
+license = "MIT"
+description   = "A Rust crate for manipulating shift registers via the GPIO pins on a Raspberry Pi."
+homepage      = "https://github.com/liftoff/cupi_shift"
+repository    = "https://github.com/liftoff/cupi_shift"
+readme        = "README.md"
+keywords      = ["respberry", "pi", "gpio", "shift register"]
+exclude       = [
+    ".gitignore",
+    "target/*"
+]
+
+[dependencies]
+cupi = "0.1.0"
+
+# This makes smaller files:
+[profile.release]
+lto = true
+panic = 'abort'
+opt-level = 3
